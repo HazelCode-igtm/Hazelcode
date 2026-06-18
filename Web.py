@@ -61,7 +61,7 @@ else:
 
     if st.session_state.page == "Home":
         st.write("🏠 Home page content")
-        st.image(photo.jpeg)
+        st.image("photo.jpeg")
 
     elif st.session_state.page == "Profile":
         st.write("👤 Profile page content")
