@@ -14,7 +14,7 @@ if not st.session_state.logged_in:
 
     st.title("Login")
 
-    username = st.text_input("Usernam")
+    username = st.text_input("Username")
     password = st.text_input("Password", type="password")
 
     if st.button("Login"):
